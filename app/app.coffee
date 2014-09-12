@@ -1,6 +1,7 @@
 require 'jquery'
 require 'angular/angular'
-require 'angular/angular-resource'
+require 'angular-resource/angular-resource'
+require 'angular-route/angular-route'
 
 require './main/main-controller'
 

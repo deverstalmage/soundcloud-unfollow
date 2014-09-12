@@ -49,7 +49,8 @@
     "readable-stream": "^1.0.27-1",
     "run-sequence": "^0.3.6",
     "streamqueue": "0.0.6",
-    "vinyl-source-stream": "^0.1.0"
+    "vinyl-source-stream": "^0.1.0",
+    "gulp-angular-templatecache": "^1.3.0"
   },
   "dependencies": {
     "jquery": "^2.1.0",
@@ -58,7 +59,8 @@
   "napa": {
     "normalize.scss": "hail2u/normalize.scss",
     "angular": "angular/bower-angular",
-    "angular-resource": "angular/bower-angular-resource"
+    "angular-resource": "angular/bower-angular-resource",
+    "angular-route": "angular/bower-angular-route"
   },
   "browserify": {
     "transform": [

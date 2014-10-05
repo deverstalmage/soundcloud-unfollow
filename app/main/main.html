@@ -3,14 +3,10 @@
     <div class="panel">
       <h1>somethin</h1>
     </div>
-    <p>{{hello}}</p>
 
-    <p>{{tracks.length}}</p>
     <ul>
-      <li ng-repeat="track in tracks">
-        <ul>
-          <li>{{track}}</li>
-        </ul>
+      <li ng-repeat="artist in artists">
+        <p><a ng-href="{{artist.url}}">{{artist.name}} last posted <strong>{{artist.posted}} ago</strong></p>
       </li>
     </ul>
   </div>

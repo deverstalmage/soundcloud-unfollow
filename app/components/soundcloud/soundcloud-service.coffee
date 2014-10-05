@@ -1,5 +1,5 @@
-Soundcloud =  ->
-  return SC
+Soundcloud = ->
+  return SC || {}
 
 angular
   .module 'sc-unfollow-guide.services.soundcloud', []
